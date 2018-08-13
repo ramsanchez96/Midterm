@@ -1,0 +1,99 @@
+@font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-light.ttf") format("truetype");
+    font-weight: 300;
+  }
+ 
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-semibold.ttf") format("truetype");
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+
+/********
+HEADER
+********/
+
+.header {
+    background-image: url("../img/hero.png");
+    background-color: $primaryColor;
+    color:white;
+    width:1440px;
+    height:419px;
+
+    .header__nav {
+        width:1440px;
+        height: 90px;
+        display:flex;
+    }
+
+    .nav__ul {
+        list-style: none;
+        width:100%;
+        display: flex;
+        flex-flow: row;
+        //justify-content: space-evenly;
+        margin:24px 27px 17px 38px;
+        //justify-content: space-between;
+
+            .nav__ul--logo {
+                margin-right:619px;
+                padding: 4px auto 8px auto;
+                width:163px;
+                height:36px;
+                margin: 24px auto 17px 38px;
+            }
+
+            .ul__li {
+                margin: 26px;
+                //text-align: center;
+                font-size: 12px;
+                line-height: 24px;
+                font-family: RVMontserrat;
+                font-weight:700;
+            }
+
+            .ul__li--burger {
+                // margin-left:40px;
+                width:49px;
+                height:49px;
+                margin-top: 10px; 
+            }
+    }
+
+    .header__h1 {
+        text-align: center;
+        color:#FDD835;
+        font-size:18px;
+        line-height: 24px;
+        margin: 40px auto 24px auto;
+        font-family: RVMontserrat;
+        font-weight:700;
+    }
+
+    .header__h2 {
+        text-align: center;
+        font-size:54px;
+        margin: auto 203px 33px 203px;
+        font-family: RVMontserrat;
+        font-weight:700;
+    }
+
+    .header__p {
+        text-align: center;
+        font-size:16px;
+        margin:auto auto 128px auto;
+        font-family: RVMontserrat;
+        font-weight:400;
+    }
+}

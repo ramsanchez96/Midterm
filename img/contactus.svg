@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="178px" height="48px" viewBox="0 0 178 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blog-Nav" transform="translate(-969.000000, 0.000000)">
+            <g id="Group-21" transform="translate(4.000000, 0.000000)">
+                <g id="Group-20" transform="translate(965.000000, 0.000000)">
+                    <g id="Primary-Button---Blue-Fill" fill="#536DFE">
+                        <rect id="Rectangle-8" x="0" y="0" width="178" height="48" rx="2"></rect>
+                    </g>
+                    <text id="Contact-Us" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="14" letter-spacing="0.239999995" fill="#FFFFFF">
+                        <tspan x="42" y="31">CONTACT US</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

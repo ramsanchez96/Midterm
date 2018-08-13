@@ -1,0 +1,135 @@
+@font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-light.ttf") format("truetype");
+    font-weight: 300;
+  }
+ 
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-semibold.ttf") format("truetype");
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+
+/********
+Footer
+********/
+
+/*.footer{
+    background-color: $primaryColor;
+    color:white;
+    width:1440px;
+    height:367px;
+
+    .nav__ul {
+        list-style: none;
+    }
+}
+
+.footerOne {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+    .footer__nav {
+        align-self:center;
+        //margin:84px 968px 118px 14px;
+        font-size:16px;
+        line-height: 33px;
+    }
+
+    .footer__social {
+        display: flex;
+        justify-content: flex-end;
+        //margin:75px 142px 84px 4.58px;
+
+        .footer__social--myMoveIcon {
+            width:64.2px;
+            height:63.88px;
+        }
+    }
+
+    
+
+    &__nav {
+        display: flex;
+        flex-flow:column;
+        width: 50%;
+        
+
+        .nav__ul {
+            margin:84px 968px 118px 144px;
+        }
+    }
+
+    .footer__social {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        margin:75px 142px 84px 4.58px;
+    }
+
+    .footer__legal {
+        width:1440px;
+        height: 24px;
+    }
+}*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: $primaryColor;
+    color:white;
+    width:1440px;
+    font-family: RVMontserrat;
+    font-weight: 400;
+
+    .footer__nav {
+        display: flex;
+        justify-content: space-around;
+
+
+        .nav__ul {
+            list-style: none;
+            margin: 84px auto 69px 144px;
+            line-height: 33px;
+            padding: 0;
+            letter-spacing: 1.14px;
+        }
+
+        .nav__ul:nth-of-type(2) {
+            margin: 79px 132px 35px 44.58px;
+        }
+    }
+    
+    >ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        line-height: 24px;
+        font-size: 14px;
+        margin-bottom: 21px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding:0;
+
+        li {
+            padding: 0 15px;
+            border-right: 1px white solid;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+    }
+}

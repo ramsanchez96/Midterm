@@ -1,0 +1,49 @@
+@font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-light.ttf") format("truetype");
+    font-weight: 300;
+  }
+ 
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-semibold.ttf") format("truetype");
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+
+/********
+2nd NAV
+********/
+
+.navWrapper {
+    display:flex;
+    justify-content: center;
+    margin: 42px 135px 40px 158px;
+    
+        .navWrapper__navTwo {
+        width:1143px;
+        height:48px;
+        display: flex;
+        justify-content: space-between;
+        padding: 12px auto 3px auto;
+
+        p {
+          font-family: $fontFamily;
+          font-weight: 300;
+        }
+        
+
+        .navWrapper__navTwo--contact {
+            margin-left: 101px;
+        }
+    }
+}

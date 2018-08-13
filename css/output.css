@@ -1,0 +1,761 @@
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-semibold.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-bold.ttf") format("truetype");
+  font-weight: 700;
+}
+/********
+GENERAL
+********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-semibold.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-bold.ttf") format("truetype");
+  font-weight: 700;
+}
+/********
+HEADER
+********/
+.header {
+  background-image: url("../img/hero.png");
+  background-color: #3F51B5;
+  color: white;
+  width: 1440px;
+  height: 419px;
+}
+.header .header__nav {
+  width: 1440px;
+  height: 90px;
+  display: flex;
+}
+.header .nav__ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  margin: 24px 27px 17px 38px;
+}
+.header .nav__ul .nav__ul--logo {
+  margin-right: 619px;
+  padding: 4px auto 8px auto;
+  width: 163px;
+  height: 36px;
+  margin: 24px auto 17px 38px;
+}
+.header .nav__ul .ul__li {
+  margin: 26px;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: RVMontserrat;
+  font-weight: 700;
+}
+.header .nav__ul .ul__li--burger {
+  width: 49px;
+  height: 49px;
+  margin-top: 10px;
+}
+.header .header__h1 {
+  text-align: center;
+  color: #FDD835;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 40px auto 24px auto;
+  font-family: RVMontserrat;
+  font-weight: 700;
+}
+.header .header__h2 {
+  text-align: center;
+  font-size: 54px;
+  margin: auto 203px 33px 203px;
+  font-family: RVMontserrat;
+  font-weight: 700;
+}
+.header .header__p {
+  text-align: center;
+  font-size: 16px;
+  margin: auto auto 128px auto;
+  font-family: RVMontserrat;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-semibold.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-bold.ttf") format("truetype");
+  font-weight: 700;
+}
+/********
+2nd NAV
+********/
+.navWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 42px 135px 40px 158px;
+}
+.navWrapper .navWrapper__navTwo {
+  width: 1143px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px auto 3px auto;
+}
+.navWrapper .navWrapper__navTwo p {
+  font-family: RVMontserrat;
+  font-weight: 300;
+}
+.navWrapper .navWrapper__navTwo .navWrapper__navTwo--contact {
+  margin-left: 101px;
+}
+
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-semibold.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-bold.ttf") format("truetype");
+  font-weight: 700;
+}
+/********
+MAIN ARTICLE
+********/
+a {
+  text-decoration: none;
+  color: black;
+}
+a .mainArticle {
+  width: 1170px;
+  height: 500px;
+  display: flex;
+  margin: auto 135px 30px 135px;
+  box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
+}
+a .mainArticle .mainArticle__img {
+  width: 441px;
+  height: 441px;
+  align-self: center;
+  margin: 30px 49px 29px 30px;
+}
+a .mainArticle .mainArticle_div {
+  margin: 0;
+}
+a .mainArticle .mainArticle__moving {
+  width: 92px;
+  height: 25px;
+  margin: 60px 558px 15px auto;
+}
+a .mainArticle .mainArticle__h2 {
+  width: 536px;
+  height: 100px;
+  font-size: 42px;
+  margin: auto 114px 25px auto;
+  font-family: RVMontserrat;
+  font-weight: 300;
+}
+a .mainArticle .mainArticle_paragraph {
+  font-size: 18px;
+  margin: auto 42px 63px auto;
+}
+a .mainArticle .mainArticle_rectangle {
+  width: 620px;
+  height: 1px;
+  margin: auto 30px 20px auto;
+}
+a .mainArticle .mainArticle_byMyMove {
+  width: 153px;
+  height: 41px;
+  margin: auto 497px 30px auto;
+}
+
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-semibold.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-bold.ttf") format("truetype");
+  font-weight: 700;
+}
+/********
+ARTICLES
+********/
+.aWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.aWrapper .aWrapper__articleDiv {
+  width: 370px;
+  height: 549px;
+  display: flex;
+  flex-flow: column;
+  box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
+  margin: 30px auto 30px auto;
+}
+.aWrapper .aWrapper__articleImg {
+  width: 310px;
+  height: 190px;
+  margin: 30px;
+}
+.aWrapper .aWrapper__articleMoving {
+  width: 92px;
+  height: 25px;
+  margin: auto 247px 16px 31px;
+}
+.aWrapper .aWrapper__header {
+  width: 308px;
+  height: 68px;
+  margin: 6px 31px 10px 31px;
+  font-size: 25px;
+  font-family: RVMontserrat;
+  font-weight: 300;
+}
+.aWrapper .aWrapper__paragraph {
+  width: 318px;
+  height: 57px;
+  margin: 10px 22px 41px 30px;
+  font-size: 14px;
+  line-height: 19px;
+}
+.aWrapper .aWrapper__paragraph--last {
+  width: 318px;
+  height: 57px;
+  margin: 20px 22px 41px 30px;
+  font-size: 14px;
+}
+.aWrapper .aWrapper__rectangle {
+  width: 370px;
+  height: 1px;
+  margin: auto auto 20px auto;
+}
+.aWrapper .aWrapper__rectangle {
+  width: 370px;
+  height: 1px;
+}
+.aWrapper .aWrapper__myMove {
+  width: 156px;
+  height: 41px;
+  margin: auto 183px 20px 31px;
+}
+
+/********
+LOAD MORE IMAGE
+********/
+.loadMoreImg {
+  width: 1171px;
+  height: 48px;
+  margin: 76px 134px 94px 135px;
+}
+
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-semibold.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: RVMontserrat;
+  src: url("../fonts/rv-montserrat-bold.ttf") format("truetype");
+  font-weight: 700;
+}
+/********
+Footer
+********/
+/*.footer{
+    background-color: $primaryColor;
+    color:white;
+    width:1440px;
+    height:367px;
+
+    .nav__ul {
+        list-style: none;
+    }
+}
+
+.footerOne {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+    .footer__nav {
+        align-self:center;
+        //margin:84px 968px 118px 14px;
+        font-size:16px;
+        line-height: 33px;
+    }
+
+    .footer__social {
+        display: flex;
+        justify-content: flex-end;
+        //margin:75px 142px 84px 4.58px;
+
+        .footer__social--myMoveIcon {
+            width:64.2px;
+            height:63.88px;
+        }
+    }
+
+
+
+    &__nav {
+        display: flex;
+        flex-flow:column;
+        width: 50%;
+
+
+        .nav__ul {
+            margin:84px 968px 118px 144px;
+        }
+    }
+
+    .footer__social {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        margin:75px 142px 84px 4.58px;
+    }
+
+    .footer__legal {
+        width:1440px;
+        height: 24px;
+    }
+}*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #3F51B5;
+  color: white;
+  width: 1440px;
+  font-family: RVMontserrat;
+  font-weight: 400;
+}
+.footer .footer__nav {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer__nav .nav__ul {
+  list-style: none;
+  margin: 84px auto 69px 144px;
+  line-height: 33px;
+  padding: 0;
+  letter-spacing: 1.14px;
+}
+.footer .footer__nav .nav__ul:nth-of-type(2) {
+  margin: 79px 132px 35px 44.58px;
+}
+.footer > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 21px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 0;
+}
+.footer > ul li {
+  padding: 0 15px;
+  border-right: 1px white solid;
+}
+.footer > ul li:last-child {
+  border-right: none;
+}
+
+/********
+ARTICLE
+********/
+main {
+  width: 931px;
+  margin: auto 273px 60px 236px;
+}
+
+.articleHeader {
+  background-color: #3F51B5;
+  color: white;
+  margin-bottom: 60px;
+}
+.articleHeader .articleHeader__nav .nav__ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  width: 1440px;
+  height: 90px;
+}
+.articleHeader .articleHeader__nav .nav__ul .ul--logo {
+  margin: 28px 467px 26px 38px;
+  width: 152px;
+  height: 36px;
+}
+.articleHeader .articleHeader__nav .nav__ul .ul__li {
+  margin: 26px auto 26px auto;
+  font-size: 12px;
+}
+.articleHeader .articleHeader__nav .nav__ul .ul--hamburger {
+  width: 49px;
+  height: 49px;
+  margin: 10px auto auto auto;
+}
+
+.articleBreadcrumbs {
+  width: 619px;
+  height: 24px;
+  margin: auto 483px auto 338px;
+}
+
+.articleHeading {
+  margin: 18px 335px 20px 338px;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 300;
+}
+
+.articleAuthor {
+  width: 243px;
+  height: 41px;
+  margin: auto 859px 50px 338px;
+}
+
+.articleHero {
+  width: 968px;
+  height: 402px;
+  margin: auto 236px 50px 236px;
+}
+
+.content__heading {
+  font-size: 30px;
+  line-height: 32px;
+  margin: auto 738px 30px auto;
+  font-family: RVMontserrat;
+  font-weight: 400;
+  width: 261px;
+}
+
+/*.contents {
+    display: flex;
+    justify-content:space-evenly;
+    //align-items: ;
+    //width:931px;
+    //height:392px;
+    //margin: auto 68px 50px 31px;
+
+        .contents__ul {
+            list-style: none;
+            color:$primaryColor;
+            font-size:24px;
+            line-height: 33px;
+            display: flex;
+            flex-flow:column;
+            justify-content:space-around;
+
+            li {
+                padding-bottom:5px;
+            }
+        }
+}*/
+.contents .contents__table {
+  width: 931px;
+  margin: auto auto 50px auto;
+}
+.contents .contents__table tr {
+  margin: auto auto 30px auto;
+}
+.contents .contents__table tr td {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3F51B5;
+  font-family: RVMontserrat;
+  font-weight: 300;
+}
+
+.articleDivider {
+  background-color: #595959;
+  width: 931px;
+  height: 3px;
+  margin: auto auto 40px auto;
+}
+
+.mainTableHeading {
+  font-size: 30px;
+  line-height: 32px;
+  margin: auto 547px 30px 99px;
+  font-family: RVMontserrat;
+  font-weight: 400;
+  width: 353px;
+}
+
+.mainTableParagraph {
+  font-size: 21px;
+  line-height: 33px;
+  width: 670px;
+  height: 99px;
+  margin: auto 162px 75px 99px;
+}
+
+.data {
+  width: 670px;
+  height: 348px;
+  margin: auto 162px auto 99px;
+}
+.data .data__Heading {
+  font-size: 30px;
+  line-height: 32px;
+  margin: auto 377px 40px auto;
+  font-family: RVMontserrat;
+  font-weight: 400;
+}
+.data table {
+  border-collapse: collapse;
+}
+.data table .tableHeader {
+  width: 670px;
+  height: 56px;
+}
+.data table .tableHeader th {
+  background-color: lightgrey;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 30px;
+  font-family: RVMontserrat;
+}
+.data table .tableRow {
+  width: 676px;
+  height: 56px;
+}
+.data table .tableRow td {
+  font-size: 16px;
+  border: lightgrey 0.5px solid;
+  padding: 15px 30px;
+  font-family: RVMontserrat;
+  font-weight: 300;
+}
+
+.sectionThree .sectionThree__HeadingThree {
+  font-size: 30px;
+  line-height: 32px;
+  margin: 50px 479px 5px 99px;
+  font-family: RVMontserrat;
+  font-weight: 400;
+}
+.sectionThree .sectionThree__HeadingFour {
+  margin: auto 580px 30px 99px;
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: normal;
+  color: #757575;
+  font-family: RVMontserrat;
+  font-weight: 300;
+}
+.sectionThree .sectionThree__Paragraph {
+  margin: auto 162px 60px 99px;
+  font-size: 21px;
+  line-height: 33px;
+  width: 670px;
+  height: 297px;
+}
+.sectionThree .sectionThree__Paragraph span {
+  text-decoration: underline;
+}
+.sectionThree .sectionThree__Img {
+  margin: auto 162px 60px 99px;
+}
+.sectionThree .sectionThree__ParagraphTwo {
+  margin: auto 162px 40px 99px;
+  font-size: 21px;
+  line-height: 33px;
+  width: 670px;
+  height: 297px;
+}
+.sectionThree .sectionThree__ParagraphTwo .sectionThree__ParagraphTwo--highlightedText {
+  font-style: none;
+  color: #3F51B5;
+}
+.sectionThree .sectionThree__ParagraphThree {
+  margin: auto 182px 40px 119px;
+  font-size: 28px;
+  line-height: 40px;
+  font-style: italic;
+  color: #757575;
+  width: 630px;
+  height: 160px;
+}
+.sectionThree .sectionThree__ParagraphFour {
+  font-size: 21px;
+  line-height: 33px;
+  width: 670px;
+  height: 66px;
+  margin: auto 162px 30px 99px;
+}
+.sectionThree .sectionThree__List {
+  margin: auto auto 30px 99px;
+  font-size: 21px;
+  line-height: 40px;
+}
+.sectionThree .sectionThree__ParagraphFive {
+  font-size: 21px;
+  line-height: 33px;
+  width: 670px;
+  height: 66px;
+  margin: auto 162px 60px 99px;
+}
+.sectionThree .sectionThree__Rectangle {
+  width: 670px;
+  height: 3px;
+  background-color: #979797;
+  margin: auto 162px 30px 99px;
+}
+
+.authorParagraph {
+  width: 669px;
+  height: 120px;
+  font-size: 18px;
+  line-height: 30px;
+  font-style: italic;
+  margin: auto 162px 60px 99px;
+}
+.authorParagraph .authorParagraph--author {
+  color: #3F51B5;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.relatedArticles {
+  margin: auto 135px 100px 135px;
+}
+.relatedArticles h3 {
+  font-family: RVMontserrat;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.relatedArticles .aWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.relatedArticles .aWrapper .aWrapper__articleDiv {
+  width: 370px;
+  height: 549px;
+  display: flex;
+  flex-flow: column;
+  box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
+  margin: 30px auto 30px auto;
+}
+.relatedArticles .aWrapper .aWrapper__articleImg {
+  width: 310px;
+  height: 190px;
+  margin: 30px;
+}
+.relatedArticles .aWrapper .aWrapper__articleMoving {
+  width: 92px;
+  height: 25px;
+  margin: auto 247px 16px 31px;
+}
+.relatedArticles .aWrapper .aWrapper__header {
+  width: 308px;
+  height: 68px;
+  margin: 6px 31px 10px 31px;
+  font-size: 26px;
+}
+.relatedArticles .aWrapper .aWrapper__paragraph {
+  width: 318px;
+  height: 57px;
+  margin: 10px 22px 41px 30px;
+  font-size: 14px;
+}
+.relatedArticles .aWrapper .aWrapper__rectangle {
+  width: 370px;
+  height: 1px;
+  margin: auto auto 20px auto;
+}
+.relatedArticles .aWrapper .aWrapper__rectangle {
+  width: 370px;
+  height: 1px;
+}
+.relatedArticles .aWrapper .aWrapper__myMove {
+  width: 156px;
+  height: 41px;
+  margin: auto 183px 20px 31px;
+}
+
+/*# sourceMappingURL=output.css.map */

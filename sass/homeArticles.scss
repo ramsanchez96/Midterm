@@ -1,0 +1,92 @@
+@font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-light.ttf") format("truetype");
+    font-weight: 300;
+  }
+ 
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-semibold.ttf") format("truetype");
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: RVMontserrat;
+    src: url("../fonts/rv-montserrat-bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+
+/********
+ARTICLES
+********/
+
+.aWrapper{
+    display:flex;
+    justify-content: space-around;
+
+    .aWrapper__articleDiv {
+        width:370px;
+        height:549px;
+        display:flex;
+        flex-flow: column;
+        box-shadow: 0 0 45px 0 rgba(0, 0, 0, .15);
+        margin:30px auto 30px auto;
+    }
+
+    .aWrapper__articleImg {
+        width:310px;
+        height:190px;
+        margin: 30px;
+    }
+
+    .aWrapper__articleMoving {
+        width:92px;
+        height:25px;
+        margin:auto 247px 16px 31px;
+    }
+
+    .aWrapper__header {
+        width:308px;
+        height:68px;
+        margin: 6px 31px 10px 31px;
+        font-size: 25px;
+        font-family: $fontFamily;
+        font-weight: 300;
+    }
+
+    .aWrapper__paragraph {
+        width: 318px;
+        height: 57px;
+        margin: 10px 22px 41px 30px;
+        font-size:14px;
+        line-height: 19px;
+    }
+
+    .aWrapper__paragraph--last {
+        width: 318px;
+        height: 57px;
+        margin: 20px 22px 41px 30px;
+        font-size:14px;
+    }
+
+    .aWrapper__rectangle {
+        width: 370px;
+        height: 1px;
+        margin: auto auto 20px auto;
+    }
+
+    .aWrapper__rectangle {
+        width: 370px;
+        height: 1px;
+    }
+
+    .aWrapper__myMove {
+        width:156px;
+        height:41px;
+        margin:auto 183px 20px 31px;
+    }
+}
